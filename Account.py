@@ -20,7 +20,7 @@ class Account:
 
     def set_name(self,name):
         self.name=name
-        print("The customer name is", name, "the balance is ",self.balance)
+        print("The customer name is, welcome", name, "the balance is ",self.balance)
 
 customer1 = Account(0,"Bandula")
 customer1.deposit(10000)
